@@ -1,0 +1,194 @@
+.tbtl-head{
+    
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    
+    
+}
+.credit{
+    padding-top: 15%;
+}
+header{
+    padding-top: 5%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.button{
+    font-family: monospace;
+    transition-duration: .4s;
+    background-color: black;
+    color: black;
+    border-color: none;
+    box-shadow: none;
+    border-radius: none;
+    
+    border: none;
+    padding: 0;
+}
+.button:hover{
+    background-color: white;
+    color:black;
+    text-decoration: underline;
+    text-decoration-style:dashed;
+    text-decoration-color: black;
+    text-decoration-thickness: 15%;
+    
+    
+}
+/* for text redacting*/
+.button2{
+    transition-duration: .4s;
+    font-family: monospace;
+    background-color: black;
+    color: black;
+    border-color: none;
+    box-shadow: none;
+    border-radius: 0%;
+    
+    border: none;
+    padding: 0;
+}
+.button2:hover{
+    background-color: white;
+    color:black;
+}
+
+
+.back{
+    background-color: white;
+}
+
+.tbtl-generic{
+    color:black;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 10%;
+
+}
+.tbtl-index{
+    color:black;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 3%;
+
+}
+.bottom-links{
+    color:black;
+    font-family: monospace;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.browse{
+    width: 50%;
+    padding-top: 5%;
+    margin: auto;
+    text-align: center;
+}
+img{
+    transition:transform 0.7s ease;
+}
+img:hover {
+    -webkit-transform:scale(1.5); 
+    transform:scale(1.5);
+}
+.img-box{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+
+}
+.text-box{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    width: 30%;
+    height: 70%;
+    margin: auto;
+    color:black;
+    font-family: monospace;
+    text-align: left;
+
+}
+
+.grid-container{
+    width: 40%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    
+    display: grid;
+}
+.grid-item{
+    padding-top: 35%;
+    padding-bottom: 35%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    
+}
+
+.pic-full{
+    
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+a{
+    text-decoration: none;
+    transition-duration: .4s;
+    color: black;
+    background-color: black;
+    
+}
+a.two{
+    /*
+    padding-top: 35%;
+    padding-bottom: 35%;
+    padding-left: 15%;
+    padding-right: 15%;
+    */
+    transition-duration: .4s;
+    color: black;
+    background-color: black;
+    
+    
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+a.two:hover{
+    
+    
+    
+
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+}
+/*
+a:visited{
+    text-decoration: line-through;
+    background-color: black;
+    color: black;
+    
+    
+}
+    */
+a:hover{
+    background-color: white;
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+
+
